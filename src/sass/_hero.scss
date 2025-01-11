@@ -1,4 +1,4 @@
-@use 'variaveis';
+@use 'variaveis' as*;
 .hero{
     padding: 5.6vw;
     height: 90vh;
@@ -51,11 +51,11 @@
                     width: 100%;
                     height: 60px;
                     font-size: 18px;
-                    color: variaveis.$corTextoSecundario;
+                    color: $corTextoSecundario;
                     background-color: #ffd700;
                     border-radius: 6px;
-                    border-color: variaveis.$corFundoButtonCombos;
-                    border: 1px solid variaveis.$corFundoButtonCombos;
+                    border-color: $corFundoButtonCombos;
+                    border: 1px solid $corFundoButtonCombos;
                     margin-bottom: 10px;
                     text-transform: uppercase;
                     

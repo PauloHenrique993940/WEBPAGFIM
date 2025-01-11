@@ -1,4 +1,4 @@
-@use 'variaveis';
+@use 'variaveis' as*;
 
 .shows {
     padding: 2vw 5.6vw;
@@ -45,10 +45,10 @@
         
 
         &__button {
-            color: variaveis.$corTextoSecundario;
+            color: $corTextoSecundario;
             font-size: 20px;
             text-transform: uppercase;
-            border-bottom: 5px solid variaveis.$corTextoSecundario;
+            border-bottom: 5px solid $corTextoSecundario;
             background: none;
             border: none;
             font-family: "Roboto", serif;
@@ -58,10 +58,10 @@
             color: red;
         }
         .btn__active__active{
-            color: variaveis.$corTextoSecundario;
+            color: $corTextoSecundario;
             font-size: 20px;
             text-transform: uppercase;
-            border-bottom: 5px solid variaveis.$corTextoSecundario;
+            border-bottom: 5px solid $corTextoSecundario;
             background: none;
             cursor: pointer;
             padding-bottom: 5px;

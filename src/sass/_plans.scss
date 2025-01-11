@@ -1,4 +1,4 @@
-@use 'variaveis';
+@use 'variaveis' as*;
 
 .plans {
     padding: 2vw 5.6vw;
@@ -55,13 +55,13 @@
 }
 
 .plans__list__btn{
-    background-color: variaveis.$corFundoEfeitoButtonCombo;
+    background-color: $corFundoEfeitoButtonCombo;
     border: none;
     padding: 10px;
     width: 200px;
     height: 50px;
     border-radius: 4px;
-    color: variaveis.$corTextoSecundario;
+    color: $corTextoSecundario;
     font-size: 20px;
     font-family: 'Roboto' sans-serif;
     font-weight: bold;
@@ -71,7 +71,7 @@
 
 
 .plans__list__btn:hover{
-    background-color: variaveis.$corFundoButtonCombos;
+    background-color: $corFundoButtonCombos;
 }
 
 

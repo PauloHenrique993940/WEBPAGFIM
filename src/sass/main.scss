@@ -1,4 +1,4 @@
-@use 'variaveis';
+@use 'variaveis' as*;
 @use 'hero';
 @use 'header';
 @use 'shows';
@@ -32,19 +32,19 @@
 
 
 body{
-    background-color: variaveis.$corDeFundo;
+    background-color: $corDeFundo;
     font-family: "Roboto", serif;
 }
 
 @mixin text($fontSize: 16px){
     font-size: $fontSize;
     line-height: $fontSize + 10px;
-    color: variaveis.$codTextoPrincipal;
+    color: $codTextoPrincipal;
 }
 
 @mixin title($fontSize:40px ){
     @include text($fontSize);
-    color: variaveis.$corTextoSecundario;
+    color: $codTextoPrincipal;
 }
 
 .text{
@@ -78,7 +78,7 @@ body{
 
 .link-text{
     @include text(18px);
-    color: variaveis.$corTextoSecundario;
+    color: $corTextoSecundario;
     text-decoration: underline;
 
 }
