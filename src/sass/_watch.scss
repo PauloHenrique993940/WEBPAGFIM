@@ -21,9 +21,8 @@
 .walpaper {
     padding: 5.6vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vw;
+    flex-direction: column;
+    height: 70vw;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/src/images/capa-22.jpg');
     background-blend-mode: overlay; /* Combina a imagem com o gradiente */
